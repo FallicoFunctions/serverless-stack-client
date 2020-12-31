@@ -1,11 +1,14 @@
 const config = {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_51I0dliI0icWT7OX9PnvfLWW7LKLgVtdi5axdP4nKLNfbYn5E0u36Xxheq1DxnoxxzVNUz8C5J7WebXdQajcLe0Km00vTxrVMpt",
+
   s3: {
     REGION: "us-east-1",
     BUCKET: "fallico-notes-app",
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "https://p03wbxnemf.execute-api.us-east-2.amazonaws.com/prod/notes",
+    URL: "https://p03wbxnemf.execute-api.us-east-2.amazonaws.com/prod",
   },
   cognito: {
     REGION: "us-east-2",
