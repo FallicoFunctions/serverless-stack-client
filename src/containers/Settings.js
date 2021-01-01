@@ -1,3 +1,4 @@
+/*
 import React, { useState, useEffect } from "react";
 import { API } from "aws-amplify";
 import { useHistory } from "react-router-dom";
@@ -61,3 +62,6 @@ export default function Settings() {
     </div>
   );
 }
+*/
+
+// Not using settings because we are not using the credit card feature

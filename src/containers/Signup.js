@@ -114,6 +114,12 @@ export default function Signup() {
             onChange={handleFieldChange}
           />
         </Form.Group>
+        <Form.Text muted>Password must contain the following:</Form.Text>
+        <Form.Text muted>8 characters</Form.Text>
+        <Form.Text muted>One lowercase letter</Form.Text>
+        <Form.Text muted>One uppercase letter</Form.Text>
+        <Form.Text muted>One symbol</Form.Text>
+        <br/>
         <Form.Group controlId="confirmPassword" size="lg">
           <Form.Label>Confirm Password</Form.Label>
           <Form.Control
